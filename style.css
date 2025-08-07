@@ -1,0 +1,70 @@
+
+@import url("https://use.typekit.net/yjg1tlp.css");
+:root {
+  line-height: 1.2;
+  color-scheme: light dark;
+  background: #D3F2E8;
+  background: linear-gradient(90deg,rgba(211, 242, 232, 1) 0%, rgba(197, 230, 221, 1) 100%);
+  text-align: center;
+  color: #042623;
+  font-family: rig-sans, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  font-weight: 500;
+  color: #3498db;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+.main {
+  max-width: 750px;
+  margin: 25px auto 15px auto;
+  padding: 0px 15px 0px 15px;
+  position: relative;
+}
+
+.belltower-container {
+  position: relative;
+  width: 150px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.belltower-background {
+  position: absolute;
+  background-color: white;
+  left: 47px;
+  width: 55px;
+  top: 30px;
+  height: 85px;
+  z-index: 1;
+}
+
+.belltower-container img {
+  width: 150px;
+  z-index: 3;
+  position: relative
+}
+
+.title {
+  font-family: new-spirit, serif;
+  font-size: 2.5em;
+  margin: 5px auto 5px auto;
+}
