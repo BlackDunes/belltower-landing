@@ -79,5 +79,10 @@ a:hover {
   font-size: 0.6em;
   display: flex;
   align-items: center;
-  gap: 15px;
+  justify-content: space-evenly;
 }
+
+.alert-box i {
+  font-size: 2em;
+}
+
