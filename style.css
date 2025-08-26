@@ -69,8 +69,17 @@ a:hover {
   margin: 5px auto 5px auto;
 }
 
+.comingsoon {
+  margin-top: 35px;
+  font-size: 1.8em;
+  font-family: new-spirit-condensed, serif;
+  color: #2c786d;
+  width: 450px;
+  text-shadow: 0 0 10px white;
+}
+
 .alert-box {
-  margin: 2em;
+  margin-top: 35px;
   background-color: white;
   border: 1px solid salmon;
   border-radius: 8px;
@@ -85,4 +94,5 @@ a:hover {
 .alert-box i {
   font-size: 2em;
 }
+
 
