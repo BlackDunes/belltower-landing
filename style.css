@@ -80,19 +80,23 @@ a:hover {
 
 .alert-box {
   margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px
   background-color: white;
-  border: 1px solid salmon;
+  border: 1px solid #b3dfd6;
   border-radius: 8px;
   color: salmon;
   padding: 20px;
   font-size: 0.6em;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .alert-box i {
   font-size: 2em;
 }
+
 
 
