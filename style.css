@@ -4,7 +4,6 @@
   line-height: 1.2;
   color-scheme: light dark;
   background: #D3F2E8;
-  background: linear-gradient(90deg,rgba(211, 242, 232, 1) 0%, rgba(197, 230, 221, 1) 100%);
   text-align: center;
   color: #042623;
   font-family: rig-sans, sans-serif;
@@ -70,7 +69,7 @@ a:hover {
 }
 
 .comingsoon {
-  margin-top: 35px;
+  margin-top: 1.5rem;
   font-size: 1.8em;
   font-family: new-spirit-condensed, serif;
   color: #2c786d;
@@ -79,10 +78,10 @@ a:hover {
 }
 
 .alert-box {
-  margin-top: 35px;
+  margin-top: 1.5rem;
   margin-left: auto;
   margin-right: auto;
-  width: 150px
+  width: 150px;
   background-color: white;
   border: 1px solid #b3dfd6;
   border-radius: 8px;
@@ -98,5 +97,16 @@ a:hover {
   font-size: 2em;
 }
 
+@media (max-width: 768px) {
+
+  :root {
+    font-size: 18px;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
 
 
