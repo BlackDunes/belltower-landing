@@ -107,6 +107,11 @@ a:hover {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  .comingsoon {
+    width: auto
+  }
 }
+
 
 
